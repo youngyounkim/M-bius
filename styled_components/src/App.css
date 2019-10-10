@@ -1,0 +1,128 @@
+body{
+    background: #232526;
+    background: -webkit-linear-gradient(to right, #232526, #414345);
+    background: linear-gradient(to right, #232526, #414345);    
+}
+#root{
+    max-width:none;
+max-height: 100%;
+min-width: 100%;
+position: absolute;
+left: 50%;
+top: 50%;
+-webkit-transform: translate(-50%,-50%);
+transform: translateX(-50%) translateY(-50%);
+}
+.main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+}
+
+.img-button {
+    background: url( "/Images/button.png" ) no-repeat;
+    background-size: 50px;
+    border: none;
+    width: 50px;    
+    height: 50px;
+    cursor: pointer;
+    position: fixed;
+    right: 50%;
+    margin-top: 20px; 
+  }
+.img-button:hover{
+    width: 50px;
+    height: 50px;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, transform 2s;
+  }
+.button{
+    transition: "none";
+    -webkit-transition: "none";
+    transform: "none";
+    -webkit-transform: "none";
+    background:#232526;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    margin-top: 10px;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+  .button:hover{
+    background:#fff;
+    color:#232526;
+  }
+  .button:before,.button:after{/* 내일 하나하나 분석해보쟈*/
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #c4cacf;
+    transition:400ms ease all;
+  }
+  .button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .button:hover:before,.button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  .button-grid{
+      display: grid;
+      direction: column;
+  }
+  .startButton{
+    top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image{
+    width: 800px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+  }
+  .page{
+      width: 800px;
+      height: 1000px;
+  }
+  .text{
+      color: #fff;
+      height: 100px;
+      padding: 10px;
+      margin-top: 10px;
+      background-color: #414345;
+      box-sizing: border-box;
+      border-radius: 10px 10px 10px 10px;      
+  }
+  h2{
+    margin: 5px;
+  }
+  h1{
+    text-align: center;
+    color: rgb(92, 22, 22);
+    font-size: 70px;
+    font-family: Serif;
+    text-shadow: 6px 2px 2px #414345;
+  
+  }
