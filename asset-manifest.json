@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/M-bius/static/css/main.49d5b687.chunk.css",
+    "main.js": "/M-bius/static/js/main.a2622959.chunk.js",
+    "main.js.map": "/M-bius/static/js/main.a2622959.chunk.js.map",
+    "runtime~main.js": "/M-bius/static/js/runtime~main.4704c018.js",
+    "runtime~main.js.map": "/M-bius/static/js/runtime~main.4704c018.js.map",
+    "static/js/2.13ce8940.chunk.js": "/M-bius/static/js/2.13ce8940.chunk.js",
+    "static/js/2.13ce8940.chunk.js.map": "/M-bius/static/js/2.13ce8940.chunk.js.map",
+    "index.html": "/M-bius/index.html",
+    "precache-manifest.419825dc2e2f75136ae4e81dfe10cd49.js": "/M-bius/precache-manifest.419825dc2e2f75136ae4e81dfe10cd49.js",
+    "service-worker.js": "/M-bius/service-worker.js",
+    "static/css/main.49d5b687.chunk.css.map": "/M-bius/static/css/main.49d5b687.chunk.css.map"
+  }
+}
